@@ -1,0 +1,11 @@
+TRAINING:
+  batch_size: 128
+  test_batch_size: 128
+  epochs: 50
+  lr: 0.001
+  gamma: 0.7
+  seed: 42
+  save_model: True
+  dry_run: False
+  log_interval: 10
+  model: "MLP" # Net, TwoLayerCNN, ThreeLayerCNN, FourLayerCNN, MLP, MLP3, MLP4, MLP_Large, MLP_Small, MLP_Medium
